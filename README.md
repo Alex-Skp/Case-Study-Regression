@@ -13,7 +13,7 @@ The task is to build a model that will predict the price of a house based on fea
 
 **Deliverables:**   
 
-*  [`Readme.md`](https://github.com/Alex-Skp/Case-Study-Regression/blob/main/README.md).
+*  [Readme.md](https://github.com/Alex-Skp/Case-Study-Regression/blob/main/README.md).
  - This markdown will explain the data analysis workflow including the problem statement/ business the objective, data extraction, data wrangling, etc. Here you should explain the business analytic approach you used to solve the problem. Please be detailed in explaining the steps you followed. It is important to keep in mind that the document is written for the readers, who may or may not have the technical expertise with Python/SQL/Tableau.
 *  [Python File]
  - It can be either uploaded as a `.ipynb` file (Jupyter notebook) or `.py` file. The Python code should be well documented with comments, explaining the code, EDA operations, logic used - especially with data cleaning operations, and any assumptions followed in the model.
