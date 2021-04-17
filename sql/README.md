@@ -2,7 +2,7 @@
 
 ## The following questions are responded as queries in the following file:  [sql-exercises.sql](https://github.com/Alex-Skp/Case-Study-Regression/blob/main/sql/sql-exercises.sql).
 
-**The questions are copied in the script too, for better readability** 
+**They are copied in the script as comments, for better readability** 
 
 1. Create a database called `house_price_regression`.
 2. Create a table `house_price_data` with the same columns as given in the csv file. Please make sure you use the correct data types for the columns.
