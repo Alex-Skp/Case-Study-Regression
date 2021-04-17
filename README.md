@@ -4,6 +4,7 @@
 
 ## Introduction:
 This is the mid bootcamp project for Ironhack, developed by Alexandre Sommerkamp. 
+
 **Background:**  
 You are working as an analyst for a real estate company. Your company wants to build a machine learning model to predict the selling prices of houses based on a variety of features on which the value of the house is evaluated.
 
@@ -12,12 +13,15 @@ The task is to build a model that will predict the price of a house based on fea
 
 **Deliverables:**   
 
-*  `Readme.md` - This markdown will explain the data analysis workflow including the problem statement/ business the objective, data extraction, data wrangling, etc. Here you should explain the business analytic approach you used to solve the problem. Please be detailed in explaining the steps you followed. It is important to keep in mind that the document is written for the readers, who may or may not have the technical expertise with Python/SQL/Tableau.
-*  Python File - It can be either uploaded as a `.ipynb` file (Jupyter notebook) or `.py` file. The Python code should be well documented with comments, explaining the code, EDA operations, logic used - especially with data cleaning operations, and any assumptions followed in the model.
+*  [`Readme.md`](https://github.com/Alex-Skp/Case-Study-Regression/blob/main/README.md).
+ - This markdown will explain the data analysis workflow including the problem statement/ business the objective, data extraction, data wrangling, etc. Here you should explain the business analytic approach you used to solve the problem. Please be detailed in explaining the steps you followed. It is important to keep in mind that the document is written for the readers, who may or may not have the technical expertise with Python/SQL/Tableau.
+*  [Python File]
+ - It can be either uploaded as a `.ipynb` file (Jupyter notebook) or `.py` file. The Python code should be well documented with comments, explaining the code, EDA operations, logic used - especially with data cleaning operations, and any assumptions followed in the model.
 * [Datasets](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/data).
 *  Tableau workbook:  
 	[See in tableau]() | [Go to files](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/tableau)
 * [File containing SQL queries](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/sql). 
+* Final presentation??
 
 
 
@@ -35,3 +39,11 @@ The task is to build a model that will predict the price of a house based on fea
 * Cleaning and wrangling the data
 * Choosing models to apply
 * Pre-Processing 
+
+**Tableau**
+
+**Presentation**
+
+**Documentation**
+
+
