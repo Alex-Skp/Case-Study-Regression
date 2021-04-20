@@ -1,5 +1,7 @@
 # Tableau - Regression
 
+In this file you will find the complete workbook to launch in your own Tableau Client, but i recommend to check the dashboards following this [link](https://public.tableau.com/profile/alex2690#!/vizhome/SeattlePropertySaleDataWorkbook/HowarepropertiesbuiltinSeattle). The page opens with the final dashboard, but the following questions are replied with the following dashboards, and marked accordingly. 
+
 Tableau Questions:
 
 1. Convert the necessary measures to dimensions (the variables that are categorical in nature)
@@ -14,16 +16,3 @@ Tableau Questions:
 9. Deep dive in category A, category B and category C using filters. Identify different characteristics/trends for each of the three categories.
 10. Create a visually appealing dashboard to represent the information.
 
-**Some points to keep in mind while working on the tableau questions:**
-
-    a) The plots should be well labelled briefly describing the purpose of the plot
-    b) Select the chart type that produces an effective outcome for a given scenario
-    c) Focus audience attention on the most important data
-    d) Use space, color and fonts appropriately
-    e) Use correct title for the plots.
-    f) Utilize formatted tooltips and descriptive titles
-    g) Format the axes wherever necessary
-    h) Use caption to add details wherever necessary
-    i) Use appropriate level of details with labels and color coding etc.
-    j) For the dashboard make sure that the information represented is clear and easy to understand. The user of the dashboard should be able to understand the purpose of the dashboard and should be able to make decisions looking at the plots presented.
-    k) You can also use filters wherever appropriate to give the user the flexibility to view different information easily
