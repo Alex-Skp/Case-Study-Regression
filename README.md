@@ -23,6 +23,33 @@ The task is to build a model that will predict the price of a house based on fea
 * [File containing SQL queries](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/sql)
 * Final presentation??
 
+## Insights:
+
+From Tableau:
+
+For properties over 650k:
+* Having a grading of 9+ (look into grading of houses)
+* Condition4-6
+* having over 4 bedrooms 
+* having over 3.5 bathrooms
+* having 2 floors but not 3
+* having at least 1 view 
+* waterfront will increase the value noticeably
+* new (2010+) or btw 1900 and 1940
+
+
+
+
+To do: 
+
+Make a map of areas with more than 650000 price and save the zipcodes ( SQL query)
+
+make a fake Xtest with these conditions randomized and test against the model to see if these conditions would yield houses of over 650k of value 
+
+
+
+
+## Conclusions:
 
 
 ## Methodology:
@@ -51,10 +78,10 @@ The task is to build a model that will predict the price of a house based on fea
 *Uploaded the whole workbook in Tableau public, then downloaded the file and uploaded [in this repository](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/tableau)). 
 
 
-**Presentation**
-*Will work with Google Slides. Will present the logging tool created for python, and will plot the progress over the iterations of the wrangling process quickly. Afterwards will present the findings from Tableau plots, as well as the final dashboard
+**Presentation**  
+* Will work with Google Slides. Will present the logging tool created for python, and will plot the progress over the iterations of the wrangling process quickly. Afterwards will present the findings from Tableau plots, as well as the final dashboard
 
-**Documentation**
-*Used Notepad++ to update the readme files of the repository, while working, and after a working session, and uploaded them together with the commits. Explored further with hyperlinking in Markdown, as well as integrating images in the files. 
+**Documentation**  
+* Used Notepad++ to update the readme files of the repository, while working, and after a working session, and uploaded them together with the commits. Explored further with hyperlinking in Markdown, as well as integrating images in the files. 
 
 
