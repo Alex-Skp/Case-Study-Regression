@@ -74,8 +74,9 @@ make a fake Xtest with these conditions randomized and test against the model to
 * Imported a csv file from the python code, after it was reviewed there for spelling or input errors
 * Went through the questions suggested and plotted the answers to these questions, evaluating the data further.
 * Detected certain anomalies while plotting that will be removed back in the python code, hoping to improve the ML models. 
-*Created a [dashboard](https://public.tableau.com/profile/alex2690#!/vizhome/SeattlePropertySaleDataWorkbook/HowarepropertiesbuiltinSeattle) which shows characteristics from properties built in Seattle based on a property sales dataset of 2016.
-*Uploaded the whole workbook in Tableau public, then downloaded the file and uploaded [in this repository](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/tableau)). 
+* Created a [dashboard](https://public.tableau.com/profile/alex2690#!/vizhome/SeattlePropertySaleDataWorkbook/HowarepropertiesbuiltinSeattle) which shows characteristics from properties built in Seattle based on a property sales dataset of 2016.
+* Tested the dashboard with a third person foreign to the project, to see if the points shown in the dashboard get through and are easy to understand. 
+* Uploaded the whole workbook in Tableau public, then downloaded the file and uploaded [in this repository](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/tableau)). 
 
 
 **Presentation**  
