@@ -3,7 +3,8 @@
 # Case Study: Regression
 
 ## Introduction:
-This is the mid bootcamp project for Ironhack, developed by Alexandre Sommerkamp. 
+This is the mid bootcamp project for Ironhack,
+by Alexandre Sommerkamp. 
 
 **Background:**  
 You are working as an analyst for a real estate company. Your company wants to build a machine learning model to predict the selling prices of houses based on a variety of features on which the value of the house is evaluated.
@@ -11,29 +12,14 @@ You are working as an analyst for a real estate company. Your company wants to b
 **Objective:**  
 The task is to build a model that will predict the price of a house based on features provided in the dataset. The senior management also wants to explore the characteristics of the houses using some business intelligence tool. One of those parameters include understanding which factors are responsible for higher property value - \$650K and above.
 
-**Deliverables:**   
-
-*  [Readme.md](https://github.com/Alex-Skp/Case-Study-Regression/blob/main/README.md)
- - This markdown will explain the data analysis workflow including the problem statement/ business the objective, data extraction, data wrangling, etc. Here you should explain the business analytic approach you used to solve the problem. Please be detailed in explaining the steps you followed. It is important to keep in mind that the document is written for the readers, who may or may not have the technical expertise with Python/SQL/Tableau.
-*  [Python File]
- - It can be either uploaded as a `.ipynb` file (Jupyter notebook) or `.py` file. The Python code should be well documented with comments, explaining the code, EDA operations, logic used - especially with data cleaning operations, and any assumptions followed in the model.
-* [Datasets](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/data)
-*  Tableau workbook:  
-	[See in tableau](https://public.tableau.com/profile/alex2690#!/vizhome/SeattlePropertySaleDataWorkbook/HowarepropertiesbuiltinSeattle) | [Go to files](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/tableau)
-* [File containing SQL queries](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/sql)
-* Final presentation??
-
-## Insights:
-
-From Tableau:
-
+**Approach**
+In order to deliver the expected results, we started working with the database and dropping the data into Tableau, a business intelligence tool that allows to very quickly create visualizations to gain insight, and then develop interactive dashboards that help gain deep insight into the data. Very quickly we could start taking conclusions over what characterizes which properties were being valued over $650k and above:
 For properties over 650k:
 * Having a grading of 9+ (look into grading of houses)
-* Condition4-6
-* having over 4 bedrooms 
-* having over 3.5 bathrooms
-* having 2 floors but not 3
-* having at least 1 view 
+* Condition will increase the value, but it it'
+* having at least 3-4 bedrooms 
+* having at least 3 bathrooms
+* having view helps a lot, but it is not so important
 * waterfront will increase the value noticeably
 * new (2010+) or btw 1900 and 1940
 
@@ -45,6 +31,33 @@ To do:
 Make a map of areas with more than 650000 price and save the zipcodes ( SQL query)
 
 make a fake Xtest with these conditions randomized and test against the model to see if these conditions would yield houses of over 650k of value 
+
+King county real estate grading:
+
+BUILDING GRADE
+Represents the construction quality of improvements. Grades run from grade 1 to 13. Generally defined as:
+
+1-3 Falls short of minimum building standards. Normally cabin or inferior structure.
+
+4 Generally older, low quality construction. Does not meet code.
+
+5 Low construction costs and workmanship. Small, simple design.
+
+6 Lowest grade currently meeting building code. Low quality materials and simple designs.
+
+7 Average grade of construction and design. Commonly seen in plats and older sub-divisions.
+
+8 Just above average in construction and design. Usually better materials in both the exterior and interior finish work.
+
+9 Better architectural design with extra interior and exterior design and quality.
+
+10 Homes of this quality generally have high quality features. Finish work is better and more design quality is seen in the floor plans. Generally have a larger square footage.
+
+11 Custom design and higher quality finish work with added amenities of solid woods, bathroom fixtures and more luxurious options.
+
+12 Custom design and excellent builders. All materials are of the highest quality and all conveniences are present.
+
+13 Generally custom designed and built. Mansion level. Large amount of highest quality cabinet work, wood trim, marble, entry ways etc. 
 
 
 
@@ -82,7 +95,20 @@ make a fake Xtest with these conditions randomized and test against the model to
 **Presentation**  
 * Will work with Google Slides. Will present the logging tool created for python, and will plot the progress over the iterations of the wrangling process quickly. Afterwards will present the findings from Tableau plots, as well as the final dashboard
 
+MAKE THE CALCULATED COLUMN FOR OVER/UNDER AVERAGE 65000k dollars 
+
 **Documentation**  
 * Used Notepad++ to update the readme files of the repository, while working, and after a working session, and uploaded them together with the commits. Explored further with hyperlinking in Markdown, as well as integrating images in the files. 
 
 
+**Deliverables:**   
+
+*  [Readme.md](https://github.com/Alex-Skp/Case-Study-Regression/blob/main/README.md)
+ - This markdown will explain the data analysis workflow including the problem statement/ business the objective, data extraction, data wrangling, etc. Here you should explain the business analytic approach you used to solve the problem. Please be detailed in explaining the steps you followed. It is important to keep in mind that the document is written for the readers, who may or may not have the technical expertise with Python/SQL/Tableau.
+*  [Python File]
+ - It can be either uploaded as a `.ipynb` file (Jupyter notebook) or `.py` file. The Python code should be well documented with comments, explaining the code, EDA operations, logic used - especially with data cleaning operations, and any assumptions followed in the model.
+* [Datasets](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/data)
+*  Tableau workbook:  
+	[See in tableau](https://public.tableau.com/profile/alex2690#!/vizhome/SeattlePropertySaleDataWorkbook/HowarepropertiesbuiltinSeattle) | [Go to files](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/tableau)
+* [File containing SQL queries](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/sql)
+* Final presentation??
