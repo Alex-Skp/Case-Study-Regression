@@ -2,7 +2,13 @@
 
 # Case Study: Regression
 
-## Introduction:
+[Introduction](#Introduction)
+[Conclusions](#Conclusions)
+[Methodology](#Methodology)
+[Deliverables](#Deliverables)
+
+
+## Introduction
 This is the mid bootcamp project for Ironhack Data Analytics Bootcamp,
 by Alexandre Sommerkamp. 
 
@@ -75,4 +81,3 @@ In order to complete this project, we went through the following steps. Some tas
 *  Tableau workbook:  
 	[See in tableau](https://public.tableau.com/profile/alex2690#!/vizhome/SeattlePropertySaleDataWorkbook/HowarepropertiesbuiltinSeattle) | [Go to files](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/tableau)
 * [File containing SQL queries](https://github.com/Alex-Skp/Case-Study-Regression/tree/main/sql)
-* Final presentation??
