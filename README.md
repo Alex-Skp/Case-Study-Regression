@@ -54,7 +54,7 @@ In order to complete this project, we went through the following steps. Some tas
 
 **Python**:
 * Created a function in order apply the model and log test data, in order to afterwards check which steps contributed to a better scores, and which ones were detrimental.
-* Made an initial import, with a basic cleaning of the data, to further export [a file](https://github.com/Alex-Skp/Case-Study-Regression/blob/main/tableau/Seattle%20Property%20Sale%20Data%20Workbook.twbx) that would be afterwards used to find insights and take conclusions with tableau.
+* Made an initial import, with a basic cleaning of the data, to further export a file that would be afterwards used to find insights and take conclusions with tableau.
 * Choosed to focus in linear regression to fit the data, leaving other models for testing in the future.
 * Pre-Processing the data in order to feed it to the model, in each iteration of the testing. 
 * This experimentation allowed to train the model one last run, achieving the highest score.
