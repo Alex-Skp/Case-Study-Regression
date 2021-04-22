@@ -2,10 +2,10 @@
 
 # Case Study: Regression
 
-[Introduction](#Introduction)
-[Conclusions](#Conclusions)
-[Methodology](#Methodology)
-[Deliverables](#Deliverables)
+* [Introduction](#Introduction)  
+* [Conclusions](#Conclusions)  
+* [Methodology](#Methodology)  
+* [Deliverables](#Deliverables)  
 
 
 ## Introduction
