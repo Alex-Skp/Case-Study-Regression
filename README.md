@@ -13,53 +13,16 @@ You are working as an analyst for a real estate company. Your company wants to b
 The task is to build a model that will predict the price of a house based on features provided in the dataset. The senior management also wants to explore the characteristics of the houses using some business intelligence tool. One of those parameters include understanding which factors are responsible for higher property value - \$650K and above.
 
 **Approach**
-In order to deliver the expected results, we started working with the database and dropping the data into Tableau, a business intelligence tool that allows to very quickly create visualizations to gain insight, and then develop interactive dashboards that help gain deep insight into the data. Very quickly we could start taking conclusions over what characterizes which properties were being valued over $650k and above:
+In order to deliver the expected results, we started working with the database and dropping the data into Tableau, a business intelligence tool that allows to very quickly create visualizations to gain insight, and then develop interactive dashboards that help gain a deeper insight into the data. Very quickly we could start taking conclusions over what characterizes which properties were being valued over $650k and above:
 For properties over 650k:
-* Having a grading of 9+ (look into grading of houses)
-* Condition will increase the value, but it it'
-* having at least 3-4 bedrooms 
-* having at least 3 bathrooms
-* having view helps a lot, but it is not so important
-* waterfront will increase the value noticeably
-* new (2010+) or btw 1900 and 1940
 
-
-
-
-To do: 
-
-Make a map of areas with more than 650000 price and save the zipcodes ( SQL query)
-
-make a fake Xtest with these conditions randomized and test against the model to see if these conditions would yield houses of over 650k of value 
-
-King county real estate grading:
-
-BUILDING GRADE
-Represents the construction quality of improvements. Grades run from grade 1 to 13. Generally defined as:
-
-1-3 Falls short of minimum building standards. Normally cabin or inferior structure.
-
-4 Generally older, low quality construction. Does not meet code.
-
-5 Low construction costs and workmanship. Small, simple design.
-
-6 Lowest grade currently meeting building code. Low quality materials and simple designs.
-
-7 Average grade of construction and design. Commonly seen in plats and older sub-divisions.
-
-8 Just above average in construction and design. Usually better materials in both the exterior and interior finish work.
-
-9 Better architectural design with extra interior and exterior design and quality.
-
-10 Homes of this quality generally have high quality features. Finish work is better and more design quality is seen in the floor plans. Generally have a larger square footage.
-
-11 Custom design and higher quality finish work with added amenities of solid woods, bathroom fixtures and more luxurious options.
-
-12 Custom design and excellent builders. All materials are of the highest quality and all conveniences are present.
-
-13 Generally custom designed and built. Mansion level. Large amount of highest quality cabinet work, wood trim, marble, entry ways etc. 
-
-
+* 85% of properties over 650000 dollars are graded 8 or over, while only 35 percent of those under 650k do
+* 80% of higher level properties have more than 3 bathrooms while only 42 percent of the ones under do
+* 65% of high tier listings have 4 or more bedrooms, while only 26% of the less expensive ones do
+* Most of of the $650k+ listings have two floors, but many have also one.
+* More of the higher priced listings have a viev than the lower ones, but very expensive listings also don't have a view, but this is very related to location too.
+* Being in the waterfront will substantially increase our sale prize. the average of being in the waterfront is around 300% higher than not being in the waterfront.
+* Average price of properties built around 1900-1940 is around or over our target. In average, only new built properties achieve those higher averages.
 
 
 ## Conclusions:
